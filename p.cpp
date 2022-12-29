@@ -41,7 +41,7 @@ public:
         {
           cout<<i+1<<".Course code = ";
           cin>>nam[i];
-          cout<<"  Grade = ";
+          cout<<"  Grade Point = ";
           cin>>c_g[i];
           cout<<"  Credit Hour = ";
           cin>>credit_h[i];
@@ -80,7 +80,7 @@ void display()
      cout<<"Student Name =  "<<n<<endl;
      for(i=0;i<n1;i++)
         {
-          cout<<i+1<<". Course code = "<<nam[i]<<"       "<<"Grade = "<<c_g[i]<<"       "<<"Credit Hour = "<<credit_h[i]<<endl;
+          cout<<i+1<<". Course code = "<<nam[i]<<"       "<<"Grade Point = "<<c_g[i]<<"       "<<"Credit Hour = "<<credit_h[i]<<endl;
         }
         cout<<"->Total Grade Point = "<<total()<<endl;
      cout<<"->Total Credit hour = "<<sum_cre()<<endl;
