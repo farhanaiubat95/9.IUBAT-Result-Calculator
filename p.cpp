@@ -41,10 +41,10 @@ public:
         {
           cout<<i+1<<".Course code = ";
           cin>>nam[i];
-          cout<<"  Grade Point = ";
-          cin>>c_g[i];
           cout<<"  Credit Hour = ";
           cin>>credit_h[i];
+          cout<<"  Grade Point = ";
+          cin>>c_g[i];
         }
     }
     float total()
